@@ -1,0 +1,13 @@
+pkgbase = unpushed-git
+	pkgdesc = Tool to scan a filesystem for uncommitted and unpushed version control changes
+	pkgver = v1.1.0.r1.g1f8f572
+	pkgrel = 1
+	url = https://github.com/nailgun/unpushed
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python2
+	source = git+https://github.com/nailgun/unpushed.git
+
+pkgname = unpushed-git
+
